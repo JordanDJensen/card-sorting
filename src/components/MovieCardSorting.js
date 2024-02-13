@@ -49,19 +49,19 @@ const MovieCardSorting = () => {
             Genre
           </Dropdown.Toggle>
           <Dropdown.Menu>
-          <Dropdown.Item onClick={() => handleFilter('Sci-Fi')}>Sci-Fi</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Adventure')}>Adventure</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Drama')}>Drama</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Action')}>Action</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Romance')}>Romance</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Animation')}>Animation</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Fantasy')}>Fantasy</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Thriller')}>Thriller</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('War')}>War</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Musical')}>Musical</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Mystery')}>Mystery</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Horror')}>Horror</Dropdown.Item>
-            <Dropdown.Item onClick={() => handleFilter('Comedy')}>Comedy</Dropdown.Item>
+          <Dropdown.Item onClick={() => handleFilter('genre', 'Sci-Fi')}>Sci-Fi</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Adventure')}>Adventure</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Drama')}>Drama</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Action')}>Action</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Romance')}>Romance</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Animation')}>Animation</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Fantasy')}>Fantasy</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Thriller')}>Thriller</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'War')}>War</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Musical')}>Musical</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Mystery')}>Mystery</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Horror')}>Horror</Dropdown.Item>
+<Dropdown.Item onClick={() => handleFilter('genre', 'Comedy')}>Comedy</Dropdown.Item>
             {/* Add more genre options */}
           </Dropdown.Menu>
         </Dropdown>
